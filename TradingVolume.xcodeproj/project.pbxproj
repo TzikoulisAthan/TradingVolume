@@ -9,23 +9,51 @@
 /* Begin PBXBuildFile section */
 		137805E12BACA3FF001CA4E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805E02BACA3FF001CA4E9 /* AppDelegate.swift */; };
 		137805E32BACA3FF001CA4E9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805E22BACA3FF001CA4E9 /* SceneDelegate.swift */; };
-		137805E52BACA3FF001CA4E9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805E42BACA3FF001CA4E9 /* ViewController.swift */; };
-		137805E82BACA3FF001CA4E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137805E62BACA3FF001CA4E9 /* Main.storyboard */; };
+		137805E52BACA3FF001CA4E9 /* TVMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805E42BACA3FF001CA4E9 /* TVMainViewController.swift */; };
 		137805EB2BACA3FF001CA4E9 /* TradingVolume.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 137805E92BACA3FF001CA4E9 /* TradingVolume.xcdatamodeld */; };
 		137805ED2BACA401001CA4E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 137805EC2BACA401001CA4E9 /* Assets.xcassets */; };
 		137805F02BACA401001CA4E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 137805EE2BACA401001CA4E9 /* LaunchScreen.storyboard */; };
+		137805F82BADE1EE001CA4E9 /* TVMainViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805F72BADE1EE001CA4E9 /* TVMainViewControllerView.swift */; };
+		137805FB2BADE649001CA4E9 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805FA2BADE649001CA4E9 /* NetworkManager.swift */; };
+		137805FE2BADECE7001CA4E9 /* CryptocurrencyData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137805FD2BADECE7001CA4E9 /* CryptocurrencyData.swift */; };
+		137806012BAE04CB001CA4E9 /* TVMainViewControllerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806002BAE04CB001CA4E9 /* TVMainViewControllerViewModel.swift */; };
+		137806072BAEBA02001CA4E9 /* VTMainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806062BAEBA02001CA4E9 /* VTMainTableViewCell.swift */; };
+		137806092BAF3377001CA4E9 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806082BAF3377001CA4E9 /* Constants.swift */; };
+		1378060B2BB099DE001CA4E9 /* CryptoLiquidityModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378060A2BB099DE001CA4E9 /* CryptoLiquidityModel.swift */; };
+		1378060F2BB2B44F001CA4E9 /* TVCoinDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1378060E2BB2B44F001CA4E9 /* TVCoinDetailsViewController.swift */; };
+		137806112BB31DA8001CA4E9 /* VTStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806102BB31DA8001CA4E9 /* VTStackView.swift */; };
+		137806132BB33171001CA4E9 /* TVSelectRangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806122BB33171001CA4E9 /* TVSelectRangeViewController.swift */; };
+		137806152BB33C74001CA4E9 /* TVSelectRangeViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806142BB33C74001CA4E9 /* TVSelectRangeViewControllerView.swift */; };
+		137806172BB5D4BC001CA4E9 /* TVCoinDetailsViewControllerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806162BB5D4BC001CA4E9 /* TVCoinDetailsViewControllerView.swift */; };
+		137806192BB5D909001CA4E9 /* TVCoinDetailsSingleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 137806182BB5D909001CA4E9 /* TVCoinDetailsSingleRow.swift */; };
+		CE85BF7207DD7D70C9A8213B /* Pods_TradingVolume.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D582750F13CC3C4898E35F43 /* Pods_TradingVolume.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		137805DD2BACA3FF001CA4E9 /* TradingVolume.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TradingVolume.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		137805E02BACA3FF001CA4E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		137805E22BACA3FF001CA4E9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		137805E42BACA3FF001CA4E9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		137805E72BACA3FF001CA4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		137805E42BACA3FF001CA4E9 /* TVMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMainViewController.swift; sourceTree = "<group>"; };
 		137805EA2BACA3FF001CA4E9 /* TradingVolume.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TradingVolume.xcdatamodel; sourceTree = "<group>"; };
 		137805EC2BACA401001CA4E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		137805EF2BACA401001CA4E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		137805F12BACA401001CA4E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		137805F72BADE1EE001CA4E9 /* TVMainViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMainViewControllerView.swift; sourceTree = "<group>"; };
+		137805FA2BADE649001CA4E9 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		137805FD2BADECE7001CA4E9 /* CryptocurrencyData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptocurrencyData.swift; sourceTree = "<group>"; };
+		137806002BAE04CB001CA4E9 /* TVMainViewControllerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVMainViewControllerViewModel.swift; sourceTree = "<group>"; };
+		137806062BAEBA02001CA4E9 /* VTMainTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTMainTableViewCell.swift; sourceTree = "<group>"; };
+		137806082BAF3377001CA4E9 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		1378060A2BB099DE001CA4E9 /* CryptoLiquidityModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoLiquidityModel.swift; sourceTree = "<group>"; };
+		1378060E2BB2B44F001CA4E9 /* TVCoinDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCoinDetailsViewController.swift; sourceTree = "<group>"; };
+		137806102BB31DA8001CA4E9 /* VTStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VTStackView.swift; sourceTree = "<group>"; };
+		137806122BB33171001CA4E9 /* TVSelectRangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSelectRangeViewController.swift; sourceTree = "<group>"; };
+		137806142BB33C74001CA4E9 /* TVSelectRangeViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVSelectRangeViewControllerView.swift; sourceTree = "<group>"; };
+		137806162BB5D4BC001CA4E9 /* TVCoinDetailsViewControllerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCoinDetailsViewControllerView.swift; sourceTree = "<group>"; };
+		137806182BB5D909001CA4E9 /* TVCoinDetailsSingleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TVCoinDetailsSingleRow.swift; sourceTree = "<group>"; };
+		1A97F59B163FB1762D9DFCA0 /* Pods-TradingVolume.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingVolume.debug.xcconfig"; path = "Target Support Files/Pods-TradingVolume/Pods-TradingVolume.debug.xcconfig"; sourceTree = "<group>"; };
+		D582750F13CC3C4898E35F43 /* Pods_TradingVolume.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TradingVolume.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9529F8C23C8A8C36BAB8D36 /* Pods-TradingVolume.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TradingVolume.release.xcconfig"; path = "Target Support Files/Pods-TradingVolume/Pods-TradingVolume.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE85BF7207DD7D70C9A8213B /* Pods_TradingVolume.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +73,8 @@
 			children = (
 				137805DF2BACA3FF001CA4E9 /* TradingVolume */,
 				137805DE2BACA3FF001CA4E9 /* Products */,
+				1D1B3FADA309B4592AA48752 /* Pods */,
+				F46015A6FD04106F6C60113B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +89,109 @@
 		137805DF2BACA3FF001CA4E9 /* TradingVolume */ = {
 			isa = PBXGroup;
 			children = (
-				137805E02BACA3FF001CA4E9 /* AppDelegate.swift */,
-				137805E22BACA3FF001CA4E9 /* SceneDelegate.swift */,
-				137805E42BACA3FF001CA4E9 /* ViewController.swift */,
-				137805E62BACA3FF001CA4E9 /* Main.storyboard */,
-				137805EC2BACA401001CA4E9 /* Assets.xcassets */,
-				137805EE2BACA401001CA4E9 /* LaunchScreen.storyboard */,
+				137806052BAEB2C3001CA4E9 /* Custom Views */,
+				137806022BAE051B001CA4E9 /* ViewControllers */,
+				137806032BAE0527001CA4E9 /* Views */,
+				137805FF2BAE04B7001CA4E9 /* ViewModels */,
+				137805FC2BADECCC001CA4E9 /* Models */,
+				137805F92BADE63C001CA4E9 /* Managers */,
+				137806042BAE053C001CA4E9 /* Support */,
 				137805F12BACA401001CA4E9 /* Info.plist */,
-				137805E92BACA3FF001CA4E9 /* TradingVolume.xcdatamodeld */,
 			);
 			path = TradingVolume;
+			sourceTree = "<group>";
+		};
+		137805F92BADE63C001CA4E9 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				137805FA2BADE649001CA4E9 /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		137805FC2BADECCC001CA4E9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				137805FD2BADECE7001CA4E9 /* CryptocurrencyData.swift */,
+				1378060A2BB099DE001CA4E9 /* CryptoLiquidityModel.swift */,
+				137805E92BACA3FF001CA4E9 /* TradingVolume.xcdatamodeld */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		137805FF2BAE04B7001CA4E9 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				137806002BAE04CB001CA4E9 /* TVMainViewControllerViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		137806022BAE051B001CA4E9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				137805E42BACA3FF001CA4E9 /* TVMainViewController.swift */,
+				1378060E2BB2B44F001CA4E9 /* TVCoinDetailsViewController.swift */,
+				137806122BB33171001CA4E9 /* TVSelectRangeViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		137806032BAE0527001CA4E9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				137805F72BADE1EE001CA4E9 /* TVMainViewControllerView.swift */,
+				137806142BB33C74001CA4E9 /* TVSelectRangeViewControllerView.swift */,
+				137806162BB5D4BC001CA4E9 /* TVCoinDetailsViewControllerView.swift */,
+				1378061A2BB5D918001CA4E9 /* Custom Elements */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		137806042BAE053C001CA4E9 /* Support */ = {
+			isa = PBXGroup;
+			children = (
+				137805EC2BACA401001CA4E9 /* Assets.xcassets */,
+				137805E22BACA3FF001CA4E9 /* SceneDelegate.swift */,
+				137805E02BACA3FF001CA4E9 /* AppDelegate.swift */,
+				137805EE2BACA401001CA4E9 /* LaunchScreen.storyboard */,
+				137806082BAF3377001CA4E9 /* Constants.swift */,
+			);
+			path = Support;
+			sourceTree = "<group>";
+		};
+		137806052BAEB2C3001CA4E9 /* Custom Views */ = {
+			isa = PBXGroup;
+			children = (
+				137806062BAEBA02001CA4E9 /* VTMainTableViewCell.swift */,
+				137806102BB31DA8001CA4E9 /* VTStackView.swift */,
+			);
+			path = "Custom Views";
+			sourceTree = "<group>";
+		};
+		1378061A2BB5D918001CA4E9 /* Custom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				137806182BB5D909001CA4E9 /* TVCoinDetailsSingleRow.swift */,
+			);
+			path = "Custom Elements";
+			sourceTree = "<group>";
+		};
+		1D1B3FADA309B4592AA48752 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1A97F59B163FB1762D9DFCA0 /* Pods-TradingVolume.debug.xcconfig */,
+				E9529F8C23C8A8C36BAB8D36 /* Pods-TradingVolume.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F46015A6FD04106F6C60113B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D582750F13CC3C4898E35F43 /* Pods_TradingVolume.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +201,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 137805F42BACA401001CA4E9 /* Build configuration list for PBXNativeTarget "TradingVolume" */;
 			buildPhases = (
+				21203002225D1EA406F5933D /* [CP] Check Pods Manifest.lock */,
 				137805D92BACA3FF001CA4E9 /* Sources */,
 				137805DA2BACA3FF001CA4E9 /* Frameworks */,
 				137805DB2BACA3FF001CA4E9 /* Resources */,
+				2E8492DD16EF1DD671CE733F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +256,81 @@
 			files = (
 				137805F02BACA401001CA4E9 /* LaunchScreen.storyboard in Resources */,
 				137805ED2BACA401001CA4E9 /* Assets.xcassets in Resources */,
-				137805E82BACA3FF001CA4E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21203002225D1EA406F5933D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TradingVolume-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2E8492DD16EF1DD671CE733F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingVolume/Pods-TradingVolume-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TradingVolume/Pods-TradingVolume-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TradingVolume/Pods-TradingVolume-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		137805D92BACA3FF001CA4E9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				137805E52BACA3FF001CA4E9 /* ViewController.swift in Sources */,
+				1378060F2BB2B44F001CA4E9 /* TVCoinDetailsViewController.swift in Sources */,
+				137805FE2BADECE7001CA4E9 /* CryptocurrencyData.swift in Sources */,
+				137805FB2BADE649001CA4E9 /* NetworkManager.swift in Sources */,
+				137806172BB5D4BC001CA4E9 /* TVCoinDetailsViewControllerView.swift in Sources */,
+				137806152BB33C74001CA4E9 /* TVSelectRangeViewControllerView.swift in Sources */,
+				137805E52BACA3FF001CA4E9 /* TVMainViewController.swift in Sources */,
 				137805E12BACA3FF001CA4E9 /* AppDelegate.swift in Sources */,
+				137806012BAE04CB001CA4E9 /* TVMainViewControllerViewModel.swift in Sources */,
+				137806092BAF3377001CA4E9 /* Constants.swift in Sources */,
+				137806112BB31DA8001CA4E9 /* VTStackView.swift in Sources */,
+				137806132BB33171001CA4E9 /* TVSelectRangeViewController.swift in Sources */,
+				137805F82BADE1EE001CA4E9 /* TVMainViewControllerView.swift in Sources */,
 				137805E32BACA3FF001CA4E9 /* SceneDelegate.swift in Sources */,
+				137806192BB5D909001CA4E9 /* TVCoinDetailsSingleRow.swift in Sources */,
 				137805EB2BACA3FF001CA4E9 /* TradingVolume.xcdatamodeld in Sources */,
+				1378060B2BB099DE001CA4E9 /* CryptoLiquidityModel.swift in Sources */,
+				137806072BAEBA02001CA4E9 /* VTMainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		137805E62BACA3FF001CA4E9 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				137805E72BACA3FF001CA4E9 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		137805EE2BACA401001CA4E9 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -207,7 +379,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -270,7 +442,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -291,6 +463,7 @@
 		};
 		137805F52BACA401001CA4E9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A97F59B163FB1762D9DFCA0 /* Pods-TradingVolume.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -301,7 +474,6 @@
 				INFOPLIST_FILE = TradingVolume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +491,7 @@
 		};
 		137805F62BACA401001CA4E9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9529F8C23C8A8C36BAB8D36 /* Pods-TradingVolume.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -329,7 +502,6 @@
 				INFOPLIST_FILE = TradingVolume/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
